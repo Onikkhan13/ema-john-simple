@@ -7,20 +7,26 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
-    margin: 10px 50px;
+    margin: 50px 50px;
 }
 
 .cart-container{
     background-color: rgba(255, 153, 0, 0.3);
+    margin-right: 30px;
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1400px) {
     .product-container{
         grid-template-columns: repeat(2, 1fr);
     }
 }
+@media screen and (max-width: 800px) {
+    .product-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 
 
-.length{
+/* .length{
     background-color: darkorange;
     width: 250px;
     margin: 40px 0px 30px 50px;
@@ -28,4 +34,4 @@
     padding-top: 2px;
     padding-bottom: 2px;
     border-radius: 10px;
-}
+} */

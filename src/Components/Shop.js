@@ -15,16 +15,16 @@ const Shop = () => {
     }, [])
 
     const handleCart = (product) =>{
-        console.log(product);
+        // console.log(product);
         const newCart = [...cart, product];
         setCart(newCart);
     }
 
     return (
         <div>
-            <div className='length'>
+            {/* <div className='length'>
                 <h3>Product: {products.length} items</h3>
-            </div>
+            </div> */}
             <div className='shop-container'>
                 <div className="product-container">
                     {
